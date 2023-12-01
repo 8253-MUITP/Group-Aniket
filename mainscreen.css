@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #86A8CF; /* Light Blue */
+}
+
+.header {
+    background-color: #082238;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.content {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #082238;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #c38eb4;
+    transform: scale(1.05);
+}
+
+.subscription-options {
+    margin-bottom: 15px;
+}
+
+.subscription-options h3 {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.subscription-options label {
+    font-size: 16px;
+    display: block;
+}
+
+.subscription-options input {
+    margin-right: 10px;
+}

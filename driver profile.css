@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #86A8CF;
+}
+
+.header {
+    background-color: #082238;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.content {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.profile-picture img {
+    border-radius: 50%;
+    max-width: 150px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.driver-info {
+    text-align: left;
+}
+
+.driver-info h2 {
+    margin-bottom: 10px;
+}
+
+.action-buttons .button {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #86A8CF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+}
+
+.action-buttons .button:hover {
+    background-color: #222;
+    transform: scale(1.05);
+}

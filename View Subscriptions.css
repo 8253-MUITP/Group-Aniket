@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #86A8CF;
+}
+
+.content {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.header {
+    background-color: #082238;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.subscription-list {
+    max-width: 800px;
+    margin: 20px auto;
+    ;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: #86A8CF
+}
+
+.subscription {
+    margin-bottom: 40px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #fff
+}
+
+.plan-header {
+    margin-bottom: 20px;
+    background-color: #fff
+}
+
+.plan-header h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.plan-header p {
+    font-size: 16px;
+    color: #777;
+}
+
+.plan-details {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.detail {
+    text-align: center;
+}
+
+.detail p {
+    font-size: 16px;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.detail ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.detail ul li {
+    font-size: 14px;
+}
+
+.options button {
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.renew {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.cancel {
+    background-color: #f44336;
+    color: #fff;
+}
+
+.pause {
+    background-color: #2196f3;
+    color: #fff;
+}
